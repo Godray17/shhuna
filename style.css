@@ -1,3 +1,10 @@
-.body{
+.header{
+  background-color: #b4aded;
+  height: 5vh;
+  display: flex;
+}
+.shyna{
+  margin: auto;
+  font-size: 22pt;
   
 }
