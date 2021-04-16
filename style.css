@@ -8,8 +8,10 @@
 
 ul.nav {
   margin-left: 0px;
-  padding-left: 100px;
   list-style: none;
+  display: flex;
+  margin: auto;
+  width: 80%;
 }
 
 .nav li {
@@ -38,6 +40,10 @@ ul.nav a:hover {
   width: 100%;
   float: left;
   transition: width .2s;
+}
+
+.nav_block{
+  margin: auto;
 }
 
 .product {
@@ -145,13 +151,13 @@ ul.nav a:hover {
   margin: 100px 0 0 0;
   height: 300px;
   display: flex;
-  background-color: #90f0dc;
+  background-color: ;
 }
 
 .card{
   height: 170px;
   width: 150px;
-  background-color: #b69ffe;
+  background-color: ;
   margin: auto;
   overflow: hidden;
   display: flex;
