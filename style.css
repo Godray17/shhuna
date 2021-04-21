@@ -1,20 +1,20 @@
+@media screen and {min-width: 1440px} and {max-width: 1599px}
+
 body {
 	color: #ffffff;
 	font: 12px Tahoma, sans-serif;
-	background-color: #f8f8f8;
-	border-top: 5px solid #7e7e7e;
 	margin: 0;
 }
 
 #wrapper {
 		background-color: #87509c;
-		height:500px;
 
 }
 
+
 .logo {
-		padding-left: 230px;
-		padding-top: 58px;
+		padding-left: 14.7em;
+		padding-top: 0.9em;
 	}
 
 	nav a {
@@ -23,7 +23,8 @@ body {
 
 	nav ul {
 		margin: 0px;
-		padding-left: 812px;
+		padding-top: 0.9em;
+		padding-left: 56.4em;
 	}
 
 	nav li {
@@ -34,9 +35,9 @@ body {
 
 .top-menu li {
 	display: inline-block;
-	padding: 4px 43px;
+	padding: 0.6em 1.9em;
 	margin: 0;
-	padding-left: 812px:
+	padding-left: 56.4em:
 }
 
 .top-menu li.active {
@@ -50,8 +51,8 @@ body {
 }
 
 .hi {
-	padding-left: 267px;
-	padding-top: 235px;
+  text-align: center;
+	padding-top: 4em;
 	font: 42px 'Oswald', sans-serif;
 }
 
