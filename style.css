@@ -18,9 +18,16 @@ body {
   width: 100%;
 }
 
+.header{
+display: flex;
+}
+
 .logo {
-  padding-left: 14.7em;
-  padding-top: 0.9em;
+  margin-left: 14.7em;
+  margin-top: 1em;
+  background-color: #fb6477;
+  width: auto;
+  display: inline-block;
 }
 
 nav a {
@@ -29,21 +36,29 @@ nav a {
 
 nav ul {
   margin: 0px;
-  padding-top: 0.9em;
-  padding-left: 56.4em;
+  padding-top: 0;
 }
 
 nav li {
   list-style-position: inside;
   font: 16px 'Oswald', sans-serif;
-  padding: 110px;
+  padding: ;
+}
+
+.navigation{
+  background-color: #39ffe5;
+    width: auto;
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 1.2em;
+    margin-left: auto;
 }
 
 .top-menu li {
   display: inline-block;
-  padding: 0.6em 1.9em;
+  padding: ;
   margin: 0;
-  padding-left: 56.4em:
+  padding-left: :
 }
 
 .top-menu li.active {
@@ -73,4 +88,6 @@ nav li {
   background-color: #eb7d4b;
   border: 1px;
   font-size: 18px;
+  padding: 10px;
+  border-radius: ;
 }
