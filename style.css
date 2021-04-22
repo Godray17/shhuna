@@ -1,64 +1,76 @@
-@media screen and {min-width: 1440px} and {max-width: 1599px}
+@media screen and {
+  min-width: 1440px
+}
+
+and {
+  max-width: 1599px
+}
 
 body {
-	color: #ffffff;
-	font: 12px Tahoma, sans-serif;
-	margin: 0;
+  color: #ffffff;
+  font: 12px Tahoma, sans-serif;
+  margin: 0;
 }
 
 #wrapper {
-		background-color: #87509c;
-
+  background-color: #87509c;
+  height: auto;
+  width: 100%;
 }
 
-
 .logo {
-		padding-left: 14.7em;
-		padding-top: 0.9em;
-	}
+  padding-left: 14.7em;
+  padding-top: 0.9em;
+}
 
-	nav a {
-		text-decoration: none;
-	}
+nav a {
+  text-decoration: none;
+}
 
-	nav ul {
-		margin: 0px;
-		padding-top: 0.9em;
-		padding-left: 56.4em;
-	}
+nav ul {
+  margin: 0px;
+  padding-top: 0.9em;
+  padding-left: 56.4em;
+}
 
-	nav li {
-	list-style-position: inside;
-	font: 16px 'Oswald', sans-serif;
-	padding: 110px;
+nav li {
+  list-style-position: inside;
+  font: 16px 'Oswald', sans-serif;
+  padding: 110px;
 }
 
 .top-menu li {
-	display: inline-block;
-	padding: 0.6em 1.9em;
-	margin: 0;
-	padding-left: 56.4em:
+  display: inline-block;
+  padding: 0.6em 1.9em;
+  margin: 0;
+  padding-left: 56.4em:
 }
 
 .top-menu li.active {
-	background: #643a79;
-	color: #ffffff;
-	border-radius: 10px 10px;
+  background: #643a79;
+  color: #ffffff;
+  border-radius: 10px 10px;
 }
 
 .top-menu a {
-	color: #b2b2b2;
+  color: #b2b2b2;
 }
 
 .hi {
   text-align: center;
-	padding-top: 4em;
-	font: 42px 'Oswald', sans-serif;
+  padding-top: 4em;
+  font: 42px 'Oswald', sans-serif;
+}
+/*добавил контейнер для кнопки, чтобы выровнять, display flex*/
+.main_btn_area{
+  width: 100%;
+  display: flex;
 }
 
 .button1 {
-	 color: #ffffff;
-	 background-color: #eb7d4b;
-	 border: 1px;
-   font-size: 18px;
+  margin: auto;
+  color: #ffffff;
+  background-color: #eb7d4b;
+  border: 1px;
+  font-size: 18px;
 }
