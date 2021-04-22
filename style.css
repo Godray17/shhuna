@@ -1,10 +1,4 @@
-@media screen and {
-  min-width: 1440px
-}
 
-and {
-  max-width: 1599px
-}
 
 body {
   color: #ffffff;
@@ -90,4 +84,17 @@ nav li {
   font-size: 18px;
   padding: 10px;
   border-radius: ;
+}
+
+
+/*действия при ширине экрана от *** пикселей*/
+@media screen and (min-width: px) {
+.classname {
+    display: none;
+}
+
+/*действия при ширине экрана до *** пикселей*/
+@media screen and (max-width: px) {
+.classname {
+    display: none;
 }
