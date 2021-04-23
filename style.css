@@ -119,6 +119,8 @@ nav li {
   width: 72vw;
   background-color: #f39c12;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 
