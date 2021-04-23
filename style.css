@@ -126,8 +126,7 @@ nav li {
   background-color: #fff;
   width: 13.8vw;
   height: 294px;
-  margin-left:
-  display: inline-block;
+  float: left;
   list-style-position: inside;
 }
 
