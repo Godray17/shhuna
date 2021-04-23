@@ -1,4 +1,9 @@
-
+@media screen and {
+  min-width: 1440px
+}
+and {
+  max-width: 1599px
+}
 
 body {
   color: #ffffff;
@@ -8,7 +13,7 @@ body {
 
 #wrapper {
   background-color: #87509c;
-  height: auto;
+  height: 596px;
   width: 100%;
 }
 
@@ -19,7 +24,6 @@ display: flex;
 .logo {
   margin-left: 14.7em;
   margin-top: 1em;
-  background-color: #fb6477;
   width: auto;
   display: inline-block;
 }
@@ -36,16 +40,15 @@ nav ul {
 nav li {
   list-style-position: inside;
   font: 16px 'Oswald', sans-serif;
-  padding: ;
+  padding: 0.6em  ;
 }
 
 .navigation{
-  background-color: #39ffe5;
     width: auto;
     display: inline-block;
     margin-top: 1em;
-    margin-right: 1.2em;
     margin-left: auto;
+	 	margin-right: 13.5vw;
 }
 
 .top-menu li {
@@ -67,13 +70,14 @@ nav li {
 
 .hi {
   text-align: center;
-  padding-top: 4em;
+  margin-top: 148px;
   font: 42px 'Oswald', sans-serif;
 }
 /*добавил контейнер для кнопки, чтобы выровнять, display flex*/
 .main_btn_area{
   width: 100%;
   display: flex;
+	margin-top: 63px;
 }
 
 .button1 {
@@ -81,20 +85,66 @@ nav li {
   color: #ffffff;
   background-color: #eb7d4b;
   border: 1px;
-  font-size: 18px;
-  padding: 10px;
-  border-radius: ;
+  font-size: 13px;
+  padding: 20px;
+  border-radius: 4px 4px;
+}
+
+#wrapper1 {
+  background-color: #17c2a4;
+  height: 747px;
+  width: 100%;
+}
+
+.Con {
+ text-align: center;
+ width: 100%;
+ padding-top: 110px;
+ font-size: 49px;
+}
+
+.Con1 {
+  text-align: center;
+  margin-top: 49px;
+  font-size: 15px;
+}
+
+.content {
+  margin-top: 83px;
+  display: flex;
+}
+
+.info {
+  height: 294px;
+  width: 72vw;
+  background-color: #f39c12;
+  margin: auto;
 }
 
 
-/*действия при ширине экрана от *** пикселей*/
-@media screen and (min-width: px) {
-.classname {
-    display: none;
+.card {
+  background-color: #fff;
+  width: 13.8vw;
+  height: 294px;
+  margin-left:
+  display: inline-block;
+  list-style-position: inside;
 }
 
-/*действия при ширине экрана до *** пикселей*/
-@media screen and (max-width: px) {
-.classname {
-    display: none;
+.card_img{
+ background-color: #f57b71;
+ height: 124px;
+ width: 100%;
+}
+
+.card_title {
+  background-color: #993027;
+  text-align: center;
+  margin: 63px 0 0 0;
+
+}
+
+.card_text {
+  background-color: #2511e6;
+  text-align: center;
 }
