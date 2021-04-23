@@ -117,7 +117,6 @@ nav li {
 .info {
   height: 294px;
   width: 72vw;
-  background-color: #f39c12;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -125,7 +124,6 @@ nav li {
 
 
 .card {
-  background-color: #fff;
   width: 13.8vw;
   height: 294px;
   float: left;
@@ -139,13 +137,12 @@ nav li {
 }
 
 .card_title {
-  background-color: #993027;
   text-align: center;
   margin: 63px 0 0 0;
-
+  text-transform: uppercase;
 }
 
 .card_text {
-  background-color: #2511e6;
+  margin-top: 29px;
   text-align: center;
 }
