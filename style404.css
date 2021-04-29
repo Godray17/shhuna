@@ -4,10 +4,10 @@ body {
 }
 
 .wrapper {
-  background-color: #7dc18e;
   height: auto;
   width: 100%;
   padding-top: 63px;
+  background-image: url(images\20120623_183525.png);
 }
 
 .main_text {
