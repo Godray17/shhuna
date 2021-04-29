@@ -4,33 +4,49 @@ body {
 }
 
 .wrapper {
-  background-color: #dfaeae;
+  background-color: #7dc18e;
   height: auto;
   width: 100%;
   padding-top: 63px;
 }
 
 .main_text {
-  background-color: #0a0a0d;
+  font-family: Virgo01;
+  background-color: #b7b7f6;
   text-align: center;
-  font-size: 144;
-  height: 18.5vw;
+  font-size: 144.44pt;
+  height: auto;
 }
 
 .second_text_image{
   background-color: #fff;
   display: inline-block;
   text-align: center;
+  width: 34px;
+  height: 34px;
 }
 
+.secont_text_area{
+  background-color: #f6d7bd;
+  height: auto;
+  display: flex;
+}
 .second_text {
-  background-color: #0a0a0d;
+  font-family:SegoeWP;
+  font-size: 30.44pt;
+  background-color: #c5c5e9;
   text-align: center;
-  margin-top: 3.3vw;
+  margin: 38px auto auto auto;
   display: inline-block;
-211
 }
-
+.third_text_area{
+font-family:SegoeWP;
+font-size: 22.44pt;
+background-color: #9bd3eb;
+height: 205px;
+width: 523px;
+margin: 65px auto auto auto;
+}
 .third_text {
-  margin-top: 211px;
+
 }
