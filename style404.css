@@ -1,0 +1,36 @@
+body {
+  color: #ffffff;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #dfaeae;
+  height: auto;
+  width: 100%;
+  padding-top: 63px;
+}
+
+.main_text {
+  background-color: #0a0a0d;
+  text-align: center;
+  font-size: 144;
+  height: 18.5vw;
+}
+
+.second_text_image{
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+}
+
+.second_text {
+  background-color: #0a0a0d;
+  text-align: center;
+  margin-top: 3.3vw;
+  display: inline-block;
+211
+}
+
+.third_text {
+  margin-top: 211px;
+}
