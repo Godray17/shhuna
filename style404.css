@@ -12,15 +12,17 @@ body {
 }
 
 .main_text {
+  background-color:ffffff;
   font-family: Virgo01;
-  background-color: #b7b7f6;
   text-align: center;
   font-size: 144.44pt;
+  margin-top: 203px;
   height: auto;
 }
 
 .second_text_image{
-  background-color: #fff;
+  margin-left: 24.3vw;
+  margin-top: 38px;
   display: inline-block;
   text-align: center;
   width: 34px;
@@ -28,25 +30,30 @@ body {
 }
 
 .secont_text_area{
-  background-color: #f6d7bd;
   height: auto;
   display: flex;
 }
 .second_text {
   font-family:SegoeWP;
   font-size: 30.44pt;
-  background-color: #c5c5e9;
   text-align: center;
   margin: 38px auto auto auto;
+  margin-left: 0.4vw;
+  margin-top: 38px;
   display: inline-block;
 }
 .third_text_area{
+background-color: #ff;
+padding-top: 107px;
+padding-left: 68px;
+padding-right: 68px;
 font-family:SegoeWP;
 font-size: 22.44pt;
-background-color: #9bd3eb;
 height: 205px;
 width: 523px;
 margin: 65px auto auto auto;
+background-image: url(images/search1.png);
+background-size: cover;
 }
 .third_text {
 
