@@ -6,9 +6,9 @@ body {
 .wrapper {
   height: auto;
   width: 100%;
-  padding-top: 63px;
   background-image: url(images/bg.png);
   background-size: cover;
+
 }
 
 .main_text {
@@ -16,17 +16,15 @@ body {
   font-family: Virgo01;
   text-align: center;
   font-size: 144.44pt;
-  margin-top: 203px;
+  padding-top: 203px;
   height: auto;
 }
 
 .second_text_image{
-  margin-left: 24.3vw;
-  margin-top: 38px;
   display: inline-block;
-  text-align: center;
-  width: 34px;
-  height: 34px;
+  margin: .5% 0 0 0;
+  width: 39px;
+  height: 39px;
 }
 
 .secont_text_area{
@@ -37,24 +35,29 @@ body {
   font-family:SegoeWP;
   font-size: 30.44pt;
   text-align: center;
-  margin: 38px auto auto auto;
+  margin: 0 0 0 0;
   margin-left: 0.4vw;
-  margin-top: 38px;
   display: inline-block;
 }
 .third_text_area{
 background-color: #ff;
-padding-top: 107px;
-padding-left: 68px;
-padding-right: 68px;
 font-family:SegoeWP;
-font-size: 22.44pt;
-height: 205px;
-width: 523px;
+font-size: 22pt;
+height: 17vw;
+width: 43vw;
 margin: 65px auto auto auto;
 background-image: url(images/search1.png);
 background-size: cover;
 }
 .third_text {
+padding: 19% 0 0 0
+}
+.second_text_middle{
+  margin: 38px auto auto auto;
+  width: auto;
+  display: flex;
+}
 
+.text_area{
+  padding-bottom: 11vh;
 }
