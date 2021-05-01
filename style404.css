@@ -42,7 +42,7 @@ body {
 .third_text_area{
 background-color: #ff;
 font-family:SegoeWP;
-font-size: 22pt;
+font-size: 18pt;
 height: 17vw;
 width: 43vw;
 margin: 65px auto auto auto;
@@ -52,6 +52,7 @@ background-size: cover;
 .third_text {
 padding: 19% 0 0 0
 }
+
 .second_text_middle{
   margin: 38px auto auto auto;
   width: auto;
@@ -60,4 +61,26 @@ padding: 19% 0 0 0
 
 .text_area{
   padding-bottom: 11vh;
+  margin-left: 5.3vw;
+}
+
+.search_area{
+margin-top: 19px;
+margin-left: 5.3vw;
+width: 394px;
+height: 37px;
+line-height: 32px;
+border: none;
+outline: none;
+box-shadow: none;
+padding: 0 0 0 6px;
+background: transparent;
+font: 13px Helvetica, Arial, sans-serif;
+color: #6E7074;
+text-shadow: 0 1px 0 #FFF;
+transition: all .2s ease-out;
+}
+
+h3 {
+  margin-left: 5.3vw;
 }
