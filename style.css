@@ -26,21 +26,26 @@ display: flex;
 }
 
 nav a {
+  
   text-decoration: none;
 }
 
 nav ul {
   margin: 0px;
   padding-top: 0;
+   margin-left: 15.4;
 }
 
 nav li {
   list-style-position: inside;
   font: 16pt 'Oswald', sans-serif;
   padding: 0.6em  ;
+  background-color: #fff;
+
 }
 
 .navigation{
+  background-color: #fff;
     width: auto;
     display: inline-block;
     margin-top: 1em;
@@ -62,7 +67,7 @@ nav li {
 }
 
 .top-menu a {
-  color: #b2b2b2;
+  background-color: #fff;
 }
 
 .hi {
@@ -94,56 +99,4 @@ nav li {
   background-color: #17c2a4;
   height: 747px;
   width: 100%;
-}
-
-.Con {
- text-align: center;
- width: 100%;
- padding-top: 110px;
- font-size: 40pt;
-}
-
-.Con1 {
-  text-align: center;
-  margin-top: 49px;
-  font-size: 18pt;
-}
-
-.content {
-  margin-top: 83px;
-  display: flex;
-}
-
-.info {
-  height: 294px;
-  width: 72vw;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.card {
-  width: 13.8vw;
-  height: 294px;
-  float: left;
-  list-style-position: inside;
-}
-
-.card_img{
- background-color: #f57b71;
- height: 124px;
- width: 100%;
-}
-
-.card_title {
-  text-align: center;
-  margin: 63px 0 0 0;
-  text-transform: uppercase;
-  font-size: 24pt;
-}
-
-.card_text {
-  margin-top: 29px;
-  text-align: center;
 }
