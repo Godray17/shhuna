@@ -1,9 +1,18 @@
+body{
+background-image: url(images/Design.png);
+background-repeat: no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
-#wrapper {
-  background-image: url(images/Design.png);
+}
+
+ #wrapper {
   height: auto;
   width: 100%;
-  background-size: cover;
 }
 
 .header{
@@ -29,16 +38,17 @@ nav ul {
 }
 
 nav li {
+  background-color: #dc1010;
   margin-left: 15.4vw;
   color: #ffcc33;
   background-color: #ffcc33'
   list-style-position: inside;
   font: 10pt 'Oswald', sans-serif;
-  padding: 2.9vw;
+  padding: 1.4vw;
 }
 
 .navigation{
-
+  background-color: #dc1010;
     width: auto;
     display: inline-block;
     margin-top: 1em;
@@ -57,5 +67,5 @@ nav li {
   display: inline-block;
   background-color: #ffcc33;
   font-size: 61.48pt;
-  margin-top: 5.9vw;
+  margin-top: 20vw;
 }
